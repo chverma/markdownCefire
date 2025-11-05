@@ -36,9 +36,9 @@ Quan la configuració de xarxa d’un equip es rep per mitjà d’un servidor DH
 
 Els avantatges de disposar d’una IP fixa són que la vostra identificació a Internet (la vostra adreça IP) no varia i tothom us pot identificar sempre per la mateixa IP. Podeu proporcionar serveis a altres equips, els clients us identifiquen sempre amb la mateixa adreça sense haver de recordar en cada moment quina adreça IP teniu avui (com passa en el cas d’una IP dinàmica).
 
-## Cal que conegues
+!!! type info "Cal saber"
+    MAC: Cada interfície de xarxa s’identifica de manera única físicament per l’adreça MAC (media acces control, adreça d’accés al medi).
 
-MAC: Cada interfície de xarxa s’identifica de manera única físicament per l’adreça MAC (media acces control, adreça d’accés al medi).
 
 ## Per saber més
 

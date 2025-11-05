@@ -36,14 +36,18 @@ subnet 140.220.191.0 netmask 255.255.255.0 {
 
 En aquest exemple es pot veure que l'adreça 140.220.191.1 és una adreça reservada exclusivament per al host iocserver, que s’identifica mitjançant la seva adreça MAC.
 
-## Activitat 2: Conceptes bàsics
 
-Defineix en un document els següents conceptes:
-- Interval
-- Exclusions
-- Concessions
-- Reserves
+???+ note "Activitat 2: Conceptes bàsics"
 
-Crea un fitxer de configuració indicant exemples dels conceptes anteriors. La xarxa de treball serà la 192.168.10.0/24.
+    Defineix en un document els següents conceptes:
+		- Interval
+		- Exclusions
+		- Concessions
+		- Reserves
+
+    ??? question "Dades"
+
+        Crea un fitxer de configuració indicant exemples dels conceptes anteriors. La xarxa de treball serà la 192.168.10.0/24.
+
 
 Llicenciat sota la [Llicència Creative Commons Reconeixement CompartirIgual 4.0](http://creativecommons.org/licenses/by-sa/4.0/)

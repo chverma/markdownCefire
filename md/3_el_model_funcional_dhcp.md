@@ -31,6 +31,20 @@ El procés real, però, és més detallat. El podem repassar: consta principalme
 - DHCP information
 
 #### Diagrama del model funcional del protocol DHCP
+
+``` mermaid
+sequenceDiagram
+autonumber
+Client->>Servidor: Discovery
+Note over Client,Servidor: Broadcast
+Servidor-->>Client: Offer
+Note over Client,Servidor: Unicast
+Client->>Servidor: Request
+Note over Client,Servidor: Broadcast
+Servidor-->>Client: Acknowledge
+Note over Client,Servidor: Unicast
+```
+
 ![Model funcional del protocol DHCP](img/smxm7uf1ud1_im1.png)
 
 Font: [IOC](http://ioc.xtec.cat/materials/FP/Materials/2201_SMX/SMX_2201_M07/web/html/WebContent/u1/a1/continguts.html). [Model funcional del protocol DHCP](https://corriol.github.io/sxe/UD03/Model%20funcional%20del%20protocol%20DHCP) ([CC BY-NC-SA](http://creativecommons.org/licenses/?lang=ca-ES))

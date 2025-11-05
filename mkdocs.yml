@@ -4,6 +4,36 @@ docs_dir: "md"
 site_dir: "docs"
 theme:
   name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Canvia a mode oscur
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Canvia a mode clar
+  features:
+    - navigation.sections
+    - content.code.copy
+plugins:
+   - search
+   - glightbox
+   - pdf-export
+
+markdown_extensions:
+   - admonition
+   - pymdownx.highlight
+   - pymdownx.superfences
+   - pymdownx.details
+   - pymdownx.highlight:
+      linenums: true
+   - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 nav:
   - Inici: index.md
   - Objectius: objectius.md
