@@ -1,5 +1,7 @@
 
 site_name: DHCP
+docs_dir: "md"
+site_dir: "docs"
 theme:
   name: material
 nav:
